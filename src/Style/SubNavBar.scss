@@ -6,25 +6,18 @@
     
     // mobile devices
     @media (max-width: 319px) {
-        .weather {
+        .weather , .newsl , .clubn , .a-dolar {
             display: none;
         }
-        .newsl {
-            display: none;
-        }
-        .clubn {
-            display: none;
-        }
+      
     }
 
     // tablet devices
     @media (max-width: 1023px) and (min-width: 320px){
-        .weather {
+        .weather , .newsl {
             display: none;
         }
-        .newsl {
-            display: none;
-        }
+        
     }
 
 }

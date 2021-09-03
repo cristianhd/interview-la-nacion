@@ -5,8 +5,8 @@ function WeatherLabel({gradius,city}) {
     return (
         <div className='weather'>
         <img className='weth-icon'src={weatherIcon} alt='weth-icon.svg'></img>
-        <label className='grad'>{gradius}</label>
-        <label className='name'>{city}</label>
+        <span className='grad'>{gradius}</span>
+        <span className='name'>{city}</span>
     </div>
     );
 }
