@@ -1,9 +1,10 @@
 import React from 'react';
+import CardArticle from './CardArticle';
 
-function Body(props) {
+function Body({articles}) {
     return (
         <div>
-            Body
+            <CardArticle article={articles[1]}/>
         </div>
     );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Style/CardFullScreen.scss'
-import {articles} from '../articles.js'
+
 import Card from './Card';
 
 
 
-function CardFullScreen(props) {
-    const article = articles[0]
+function CardFullScreen({article}) {
+ 
     return (
         <div className='container-card'>
             <Card
