@@ -1,3 +1,53 @@
-div {
-        color:red;
+.navbar {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 1024px){
+    .btn-section {
+        display: none;
     }
+    .btn-signin{
+        display: none;
+    }
+    .btns-left {
+      display: none;
+    }
+    .btns-right {        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+  }
+
+  @media (min-width : 1024px){
+      
+    .btn-search {
+        &::after {
+          content: " BUSCAR";
+        }
+      }
+  }
+}
+.btns-left {
+  display: flex;
+  flex-direction: row;
+}
+.btns-right {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-search {
+  height: 40px;
+}
+.btn-section {
+  height: 40px;
+}

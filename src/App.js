@@ -7,7 +7,10 @@ import SubNavBar from "./Components/SubNavBar";
 function App() {
   return (
     <div className="App">
+    <nav>
+
       <NavBar/>
+    </nav>
       <SubNavBar/>
       <CardFullScreen/>
       <Body/>
