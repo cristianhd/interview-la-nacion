@@ -1,25 +1,48 @@
+.sub-navbar {
+    width: inherit;
+  min-width: 320px;
+  padding: 0px 16px;
+ 
+   
+}
+
 .container {
-    padding: 0px 16px;
-    width: 100%;
-    height: 40px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    //mobile devices
+    @media (max-width: 320px){
+        .a-dolar {
+            display: none;
+        }
+      
+    }
     
-    // mobile devices
-    @media (max-width: 768px){
-        .weather , .newsl , .clubn , .a-dolar {
+    // tablet devices
+    @media (max-width: 767px){
+        .weather , .newsl , .clubn  {
             display: none;
         }
       
     }
 
-    // tablet devices
+    // desktop devices
     @media (max-width: 1024px){
+        
         .weather , .newsl {
             display: none;
         }
         
+    }
+    @media (min-width: 1023px) {
+        width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 40px;
+       
     }
 
 }

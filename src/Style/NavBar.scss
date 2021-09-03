@@ -1,5 +1,5 @@
 .navbar {
-  width: 100%;
+  width: inherit;
   min-width: 320px;
   padding: 0px 16px;
   display: flex;
@@ -7,8 +7,8 @@
   justify-content: space-between;
 
   // tablet and mobile devices
-  @media (max-width: 1024px) {
-    width: 100%;
+  @media (max-width: 1023px) {
+    
     .btn-section {
       display: none;
     }
@@ -26,10 +26,12 @@
     }
   }
   // Desktop devices
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
+    width: inherit;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0px 40px;
 
     .icon {
       display: none;
@@ -41,22 +43,12 @@
       height: 40px;
       display: flex;
       flex-direction: row;
-      align-items: center;
+     
       justify-content: flex-end;
       
     }
 
-    .btn-signin {
-      height: 40px;
-      background: #f2f2f2;
-      background: #fff;
-      border-color: #0074c4;
-      color: #0074c4;
-      font-size: 0.75rem;
-      font-weight: 700;
-      border: 1px solid #0074c4;
-      border-radius: 0.25rem;
-    }
+  
     .btn-suscribe {
       margin-right: 25px;
       width: 105px;
@@ -114,4 +106,17 @@
   padding: 3px 16px;
   text-decoration: none;
   color: #0074c4;
+}
+.btn-signin {
+  height: 40px;
+  width: 96px;
+  padding: 3px 16px;
+  background: #f2f2f2;
+  background: #fff;
+  border-color: #0074c4;
+  color: #0074c4;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid #0074c4;
+  border-radius: 0.25rem;
 }
