@@ -1,6 +1,6 @@
 import React from 'react';
 
-function LinkSocial({img,name,link}) {
+function LinkImg({img,name,link}) {
     return (
         <a href={link}>
             <img src={img} alt={name}></img>
@@ -8,4 +8,4 @@ function LinkSocial({img,name,link}) {
     );
 }
 
-export default LinkSocial;
+export default LinkImg;
