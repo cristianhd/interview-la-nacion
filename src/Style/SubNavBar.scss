@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    // mobile devices
+    @media (max-width: 319px) {
+        .weather {
+            display: none;
+        }
+        .newsl {
+            display: none;
+        }
+        .clubn {
+            display: none;
+        }
+    }
+
+    // tablet devices
+    @media (max-width: 1023px) and (min-width: 320px){
+        .weather {
+            display: none;
+        }
+        .newsl {
+            display: none;
+        }
+    }
+
+}
+
+.dolar , .clubn , .weather, .newsl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
