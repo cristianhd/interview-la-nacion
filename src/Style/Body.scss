@@ -1,3 +1,11 @@
-.art-render{
-    
+.body{
+    width: 100%;
+}
+.sect-render{
+   
+
+    @media (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+    }
 }

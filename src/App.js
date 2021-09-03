@@ -12,16 +12,18 @@ function App() {
   return (
     <div className="App">
       <nav>
+
         <NavBar />
-        <SubNavBar />
       </nav>
-      <header>
+        <SubNavBar />
+      
+     
         <CardFullScreen article ={article}/>
-      </header>
+      
       <Body article = {article}/>
-      <footer>
+     
         <Footer />
-      </footer>
+     
     </div>
   );
 }
