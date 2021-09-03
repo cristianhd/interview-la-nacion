@@ -5,8 +5,8 @@ function DolarLabel({bna,blue}) {
     return (
         <div className='dolar'>
             <a className="a-dolar" href="/dolar">Dolar:</a>
-            <span className='dolar-bna'>BNA: ${bna.buy}/${bna.sell}</span>
-            <span className='dolar-blue'> Blue: ${blue.buy}/${blue.sell}</span>
+            <span className='dolar-bna'>${bna.buy} / ${bna.sell}</span>
+            <span className='dolar-blue'>${blue.buy} / ${blue.sell}</span>
         </div>
     );
 }

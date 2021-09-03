@@ -1,3 +1,30 @@
+
+
+.dolar{
+   min-width: 320px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
 .dolar-bna {
-    position: relative;
+    padding: 10px;
+    &::before {
+        content: 'BNA:';
+        font-weight: 400;
+    }
+    font-weight: 700;
+    
+}
+.dolar-blue {
+    padding: 10px;
+    &::before {
+        content: 'Blue:';
+        font-weight: 400;
+    }
+    font-weight: 700;
+}
+
+.a-dolar{
+    text-decoration: none;
 }
