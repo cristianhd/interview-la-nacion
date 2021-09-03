@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
 
+  // tablet and mobile devices
   @media (max-width: 1024px){
     .btn-section {
         display: none;
@@ -21,15 +22,37 @@
         justify-content: space-around;
         align-items: center;
     }
+    
   }
-
+  // Desktop devices
   @media (min-width : 1024px){
+      height: 72px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
       
     .btn-search {
         &::after {
           content: " BUSCAR";
         }
       }
+    .icon {
+        display: none;
+    }
+    .img-logo{
+        height: 30px;
+    }
+    .btns-right {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .btn-signin {
+        height: 40px;
+    }
+    
   }
 }
 .btns-left {
@@ -39,15 +62,25 @@
 .btns-right {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-right: 10px;
 }
 .logo {
+    
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.icon {
+    height: 20px;
 }
 .btn-search {
   height: 40px;
 }
 .btn-section {
   height: 40px;
+}
+.btn-suscribe {
+    margin-right: 18px;
+    text-decoration: none;
 }

@@ -21,14 +21,17 @@ function NavBar(props) {
       </div>
 
       <div className='logo'>
-        <img className='' src={logo} alt='logo.svg'></img>
+        <img className='img-logo' src={logo} alt='logo.svg'></img>
       </div>
 
       <div className='btns-right'>
+      
         <a className='btn-suscribe' href='/suscribe'>
           SUSCRIBITE
         </a>
-            <img src={search} alt='search-icon'></img>
+        <a className='btn-icon' href='/search'>
+            <img className="icon" src={search} alt='search-icon'></img>
+        </a>
         
         <button className='btn-signin'>INGRESAR</button>
       </div>
