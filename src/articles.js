@@ -1,3 +1,5 @@
+import defaultImg from './assets/defaultImg.svg'
+
 export const articles = [
   {
     lead: "Lead",
@@ -5,11 +7,11 @@ export const articles = [
       "Title Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
     subheader:
       "Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba comó sería su viaje a bordo de su propia nave espacial",
-    img: "https://us.123rf.com/450wm/meepoohyaphoto/meepoohyaphoto1309/meepoohyaphoto130900355/22268211-la-imagen-de-fondo-azul-del-dise%C3%B1o-.jpg?ver=6",
+    img: defaultImg,
     marquee: "Marquee",
     autor: "Nicolas Hernandez",
     imgautor: "https://cdn-icons-png.flaticon.com/512/709/709722.png",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -19,7 +21,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Aydee Duarte",
     imgautor: "https://cdn-icons-png.flaticon.com/512/709/709722.png",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -29,7 +31,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Robinsson Hernandez",
     imgautor: "https://cdn-icons-png.flaticon.com/512/709/709722.png",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -40,7 +42,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Americo Carrasquero",
     imgautor: "https://cdn-icons-png.flaticon.com/512/709/709722.png",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -51,7 +53,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Laura Ramirez",
     imgautor: "https://cdn-icons-png.flaticon.com/512/709/709722.png",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -61,7 +63,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -71,7 +73,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -81,7 +83,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Ana Victoria",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -91,7 +93,7 @@ export const articles = [
     marquee: "Marquee",
     autor: "Luis Diaz",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -102,7 +104,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -112,7 +114,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -122,7 +124,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -133,7 +135,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -143,7 +145,7 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
   {
     lead: "Lead",
@@ -153,6 +155,6 @@ export const articles = [
     marquee: "",
     autor: "",
     imgautor: "",
-    url: "",
+    url:"#",
   },
 ];

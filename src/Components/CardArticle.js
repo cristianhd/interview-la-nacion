@@ -10,17 +10,23 @@ function CardArticle({article,render}) {
         case 1:
             return(
                 <article>
-                    <Article elements={{img,lead,title,marquee}}/>
+                    <Article elements={{img,lead,title,marquee,url}}/>
                 </article>
             )
           
         case 2:
-            
-            break;
+            return(
+                <article>
+                    <Article elements={{lead,title,subheader,marquee,url}}/>
+                </article>
+            )
 
         case 3:
-            
-            break;
+            return(
+                <article>
+                    <Article elements={{lead,title,imgautor,autor,url}}/>
+                </article>
+            )
     
         default:
             return (

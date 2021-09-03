@@ -1,10 +1,10 @@
 import React from 'react';
 import CardArticle from './CardArticle';
 
-function Body({articles}) {
+function Body({article}) {
     return (
         <div>
-            <CardArticle article={articles[1]}/>
+            <CardArticle article={article} render={1}/>
         </div>
     );
 }

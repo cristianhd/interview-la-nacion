@@ -17,7 +17,7 @@ function App() {
       <header>
         <CardFullScreen article ={article}/>
       </header>
-      <Body articles = {articles}/>
+      <Body article = {article}/>
       <footer>
         <Footer />
       </footer>
