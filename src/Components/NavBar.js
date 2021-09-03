@@ -15,6 +15,7 @@ function NavBar(props) {
         <img src={hamburguer} alt='ham-icon.svg'></img>
         </button>
         <button className='btn-search'>
+        BUSCAR
           <img src={search} alt='search-icon'></img>
           
         </button>

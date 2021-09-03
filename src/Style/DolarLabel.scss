@@ -8,7 +8,7 @@
 }
 
 .dolar-bna {
-    padding: 10px;
+    padding-right: 10px;
     &::before {
         content: 'BNA:';
         font-weight: 400;
@@ -27,4 +27,5 @@
 
 .a-dolar{
     text-decoration: none;
+    padding-right: 10px
 }
