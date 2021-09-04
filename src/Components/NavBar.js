@@ -7,8 +7,8 @@ import '../Style/NavBar.scss';
 function NavBar(props) {
   return (
     <div className='lay'>
-    
-    
+    <div className='row'>
+
       <div className='btns-left'>
         <button className='btn-section'>
         SECCIONES
@@ -36,6 +36,8 @@ function NavBar(props) {
         
         <button className='btn-signin'>INGRESAR</button>
       </div>
+    </div>
+    
     
     </div>
   );

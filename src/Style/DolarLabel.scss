@@ -2,6 +2,9 @@
 .dolar{
     height: 40px;
     min-width: 335px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .dolar-bna {

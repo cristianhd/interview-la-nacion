@@ -1,7 +1,6 @@
 .App {
   position: absolute;
   width: 100%;
-  height: auto;
   font-family: Arial, sans-serif;
 }
 .navbar {
@@ -11,21 +10,18 @@
   width: 100%;
 }
 .lay {
-  width: 100%;
+ 
   font: inherit;
   min-width: 320px;
   padding-right: 1rem;
   padding-left: 1rem;
-  margin-right: auto;
-  margin-left: auto;
+
+}
+
+.row {
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 1023px) {
-      width: 100%;
-  }
-  @media (min-width: 1024px) {
-    width: 100%;
-}
 }

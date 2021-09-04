@@ -13,6 +13,8 @@ function SubNavBar(props) {
 
       <section className="sub-navbar">
     <div className="lay">
+    <div className='row'>
+
         <DolarLabel bna={dolarBna} blue={dolarBlue} />
         <WeatherLabel gradius={geoWeather.gradius} city={geoWeather.city} />
 
@@ -21,6 +23,7 @@ function SubNavBar(props) {
           <img src={logoClub} alt="logo-club.svg"></img>
           Descubrí tus beneficios
         </a>
+    </div>
     </div>
       </section>
   );
