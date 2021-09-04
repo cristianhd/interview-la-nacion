@@ -1,27 +1,27 @@
 
-
 .dolar{
-   min-width: 320px;
     height: 40px;
-   
+    min-width: 335px;
 }
 
 .dolar-bna {
+    font-size: 0.875rem;
     padding-right: 10px;
+    font-weight: 700;
     &::before {
         content: 'BNA:';
         font-weight: 400;
     }
-    font-weight: 700;
     
 }
 .dolar-blue {
-    padding: 10px;
+    font-size: 0.875rem;
+    padding-right: 10px;
+    font-weight: 700;
     &::before {
         content: 'Blue:';
         font-weight: 400;
     }
-    font-weight: 700;
 }
 
 .a-dolar{

@@ -1,14 +1,10 @@
-.navbar {
-  width: inherit;
-  min-width: 320px;
-  padding: 0px 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.lay {
+ 
 
   // tablet and mobile devices
   @media (max-width: 1023px) {
-    
+   
+
     .btn-section {
       display: none;
     }
@@ -19,6 +15,8 @@
       display: none;
     }
     .btns-right {
+      width: 100px;
+      margin-right: 20px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -27,7 +25,7 @@
   }
   // Desktop devices
   @media (min-width: 1024px) {
-    width: inherit;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,10 +39,7 @@
     }
     .btns-right {
       height: 40px;
-      display: flex;
-      flex-direction: row;
-     
-      justify-content: flex-end;
+      display: inline-flex;
       
     }
 
@@ -76,10 +71,11 @@
   
 }
 .img-logo {
-  width: 150px;
+  width: 164px;
+  height: 16px;
 }
 .icon {
-  height: 18px;
+  height: 24px;
 }
 
 .btn-section,

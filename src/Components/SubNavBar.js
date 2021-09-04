@@ -12,7 +12,7 @@ function SubNavBar(props) {
   return (
 
       <section className="sub-navbar">
-    <div className="container">
+    <div className="lay">
         <DolarLabel bna={dolarBna} blue={dolarBlue} />
         <WeatherLabel gradius={geoWeather.gradius} city={geoWeather.city} />
 

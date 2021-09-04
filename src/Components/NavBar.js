@@ -6,9 +6,9 @@ import '../Style/NavBar.scss';
 
 function NavBar(props) {
   return (
-    <div className='navbar'>
+    <div className='lay'>
     
-
+    
       <div className='btns-left'>
         <button className='btn-section'>
         SECCIONES
