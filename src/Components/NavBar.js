@@ -20,9 +20,11 @@ function NavBar(props) {
           
         </button>
       </div>
+      <div className='logo'>
 
-     
         <img className='img-logo' src={logo} alt='logo.svg'></img>
+      </div>
+     
     
 
       <div className='btns-right'>

@@ -1,2 +1,16 @@
+.sub-navbar{
 
 
+  @media (max-width: 1024px) {
+    .newsl,
+    .weather {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .clubn {
+      display: none;
+    }
+  }
+}
