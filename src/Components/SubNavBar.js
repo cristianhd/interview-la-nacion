@@ -8,7 +8,7 @@ function SubNavBar(props) {
  //Simulate Data API Dolar and Weather
   const dolarBna = { buy: "00,00", sell: "00,00" };
   const dolarBlue = { buy: "00,00", sell: "00,00" };
-  const geoWeather = { gradius: "00,0°", city: "Capital Federal" };
+  const geoWeather = { gradius: "00.0°", city: "Capital Federal" };
   return (
 
       <section className="sub-navbar">
@@ -23,6 +23,7 @@ function SubNavBar(props) {
           <img src={logoClub} alt="logo-club.svg"></img>
           Descubrí tus beneficios
         </a>
+
     </div>
     </div>
       </section>

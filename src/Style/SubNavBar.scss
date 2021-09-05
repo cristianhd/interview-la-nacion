@@ -1,16 +1,41 @@
 .sub-navbar{
+  .newsl, .weather, .clubn {
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
 
+  @media (min-width: 1024px){
+    background-color: #F2F2F2;
+    
 
-  @media (max-width: 1024px) {
+  }
+
+  @media (max-width: 1023px) {
     .newsl,
     .weather {
       display: none;
+      
     }
+    
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .clubn {
       display: none;
     }
   }
+
+  @media (max-width: 351px) {
+    .a-dolar {
+      display: none;
+    }
+  }
+}
+
+.newsl, .clubn {
+  text-decoration: none;
+  color: #0074C4;
+  font-size: 14px;
+  font-weight: 400;
 }
