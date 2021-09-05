@@ -7,14 +7,14 @@ import Android from '../assets/Android.svg'
 function LinksDownload(props) {
     return (
         <div className='dowl'>
-             <LinkImg
-                img={iOS}
-                name='ios-icon'
-                link='#'
-            />
             <LinkImg
                 img={Android}
                 name='android-ico'
+                link='#'
+            />
+             <LinkImg
+                img={iOS}
+                name='ios-icon'
                 link='#'
             />
         </div>

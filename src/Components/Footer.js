@@ -9,8 +9,10 @@ import LinksGDAFiscal from "./LinksGDAFiscal";
 function Footer(props) {
   return (
     <div className="footer">
+    <div className='lay'>
+
       <section className="links">
-        <a className="Logo" href="/">
+        <a className="logo" href="/">
           <img src={logo} alt="logo.svg"></img>
         </a>
 
@@ -21,6 +23,7 @@ function Footer(props) {
         <LinksGDAFiscal />
         <span className='copyright'>Copyright 2021 SA LA NACION | Todos los derechos reservados</span>
       </section>
+    </div>
     </div>
   );
 }

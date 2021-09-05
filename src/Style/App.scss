@@ -6,20 +6,20 @@
 .navbar {
   position: relative;
   border-bottom: 1px solid #cccccc;
-  padding: 16px 0px;
-  width: 100%;
+  padding: 12px 0px;
+  
+  
 }
 .lay {
  
   font: inherit;
-  min-width: 320px;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  min-width: 288px;
+  padding: 0px 16px;
 
 }
 
 .row {
-  
+  width: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
