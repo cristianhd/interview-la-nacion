@@ -40,6 +40,9 @@
   }
 }
 .btn-suscribe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 0.75rem;
   font-weight: 700;
   padding: 3px 16px;
