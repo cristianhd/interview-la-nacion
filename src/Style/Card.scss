@@ -1,9 +1,21 @@
 .card-bottom {
-    
+    padding: 20px 16px 16px ;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 62.76%);
 }
 .img-card{
     height: 457px;
     width: 100%;
     
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    height: 457px;
+    width: 100%;
+      
+        background-image: url('../assets/defaultImg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }

@@ -6,7 +6,7 @@ import cardfs from '../assets/cardfs.svg'
 function Card({type,article}) {
     return (
         <section className='card'>
-            <img className='img-card' src={cardfs} alt='cardfs'/>
+          
         <div className='card-bottom'>
       
             <Chapita type={type}/>
