@@ -8,10 +8,13 @@ function Card({type,article}) {
         <section className='card'>
           
         <div className='card-bottom'>
-      
+        <div className='wrap'>
+
             <Chapita type={type}/>
-            <h1>{article.lead}.{article.title}</h1>
+            <h1>{article.lead}. {article.title}</h1>
             <span>{article.marquee} / {article.autor}</span>
+        </div>
+      
 
         </div>
 

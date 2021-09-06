@@ -8,7 +8,7 @@ function Article({elements}) {
            {(elements.img) && (<div className='art-img'>
             <img src={elements.img} alt='img-article'></img>
            </div>)}
-            <h1 className='lead'>{elements.lead}.<a className='title' href={elements.url}>{elements.title}</a></h1>
+            <h1 className='lead'>{elements.lead}. <a className='title' href={elements.url}>{elements.title}</a></h1>
             {(elements.subheader) && (<h2 className='subh'>{elements.subheader}</h2>)}
             {(elements.marquee) && (<span className='marq'>{elements.marquee}</span>)}
             {(elements.imgautor) && (<div className='img-autor'>

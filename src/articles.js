@@ -5,7 +5,7 @@ export const articles = [
   {
     lead: "Lead",
     title:
-      "Title Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+      "Title esto es un titulo de la novedad con unas cuantas lineas que ocupar",
     subheader:
       "Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba comó sería su viaje a bordo de su propia nave espacial",
     img: defaultImg,

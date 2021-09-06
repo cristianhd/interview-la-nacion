@@ -1,8 +1,17 @@
+$SuecaSlab-font-path: "../fonts/SuecaSlab";
 .App {
   position: absolute;
   width: 100%;
-  font-family: Arial, sans-serif;
+  font-family: Arial, SuecaSlab sans-serif;
   min-width: 320px;
+}
+
+@font-face {
+  
+    src: url("#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf") format("woff2");
+
+    font-family: "SuecaSlab";
+   
 }
 .navbar {
   position: relative;
@@ -17,6 +26,7 @@
 
   }
 }
+
 .lay {
  
   font: inherit;
