@@ -1,19 +1,30 @@
 .article {
     width: inherit;
-    padding: 10px;
+    padding: 0px 32px 22px 16px;
     height: inherit;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid black;
-}
-.img-autor {
-    
-  
-    
+    justify-content: center;
    
 }
+.marq , .nameautor {
+    color: red;
+    text-align: start;
+}
+.img-autor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
 .title {
+    text-align: start;
     text-decoration: none;
 }
 .art-img {

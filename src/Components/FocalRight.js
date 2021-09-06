@@ -3,7 +3,7 @@ import CardArticle from './CardArticle';
 
 function FocalRight({article}) {
     return (
-        <div>
+        <div className='focal'>
             <CardArticle article={article} render={2} />
         <CardArticle article={article} render={1} />
         <CardArticle article={article} render={3} />
