@@ -1,31 +1,28 @@
-.sub-navbar{
-  .newsl, .weather, .clubn {
+.sub-navbar {
+  .newsl,
+  .weather,
+  .clubn {
     display: flex;
-      flex-direction: row;
-      align-items: center;
+    flex-direction: row;
+    align-items: center;
   }
 
   @media (min-width: 1259px) {
-    .lay{
+    .lay {
       display: flex;
       justify-content: center;
     }
-    
   }
-  @media (min-width: 1024px){
-    background-color: #F2F2F2;
-   
-    
 
+  @media (min-width: 1024px) {
+    background-color: #f2f2f2;
   }
 
   @media (max-width: 1023px) {
     .newsl,
     .weather {
       display: none;
-      
     }
-    
   }
 
   @media (max-width: 767px) {
@@ -41,9 +38,10 @@
   }
 }
 
-.newsl, .clubn {
+.newsl,
+.clubn {
   text-decoration: none;
-  color: #0074C4;
+  color: #0074c4;
   font-size: 14px;
   font-weight: 400;
 }

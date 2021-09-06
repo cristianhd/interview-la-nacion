@@ -1,16 +1,13 @@
-.body{
-    
-    font: inherit;
-max-width: 920px;
-
-     border: 1px solid black;
+.body {
+  font: inherit;
+  max-width: 920px;
+  border: 1px solid black;
 }
-.sect-render{
-   
 
-    @media (min-width: 768px){
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 40px;
-    }
+.sect-render {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
 }

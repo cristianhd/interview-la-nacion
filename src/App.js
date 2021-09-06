@@ -3,45 +3,37 @@ import CardFullScreen from "./Components/CardFullScreen";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 import SubNavBar from "./Components/SubNavBar";
-import {articles} from './articles.js'
-import './Style/App.scss'
+import { articles } from "./articles.js";
 import Cabezal from "./Components/Cabezal";
 import MegaLateral from "./Components/MegaLateral";
+import "./Style/App.scss";
 
 function App() {
-  const article = articles[0]
-  
+  const article = articles[0];
+
   return (
     <div className="App">
-      <nav className='navbar'>
-
+      <nav className="navbar">
         <NavBar />
       </nav>
-        <SubNavBar />
+      <SubNavBar />
       <header>
-
-        <CardFullScreen article ={article}/>
+        <CardFullScreen article={article} />
       </header>
-        <div className='main'>
 
-      <div className='wrap-body'>
-          
-
-      <Cabezal/>
-     
-      
-      <Body article = {article}/>
-          </div>
-          <div className='sidebar'>
-            <MegaLateral/>
-          </div>
+      <div className="main">
+        <div className="wrap-body">
+          <Cabezal />
+          <Body article={article} />
         </div>
-        
-    <footer>
+        <div className="sidebar">
+          <MegaLateral />
+        </div>
+      </div>
 
+      <footer>
         <Footer />
-    </footer>
-     
+      </footer>
     </div>
   );
 }

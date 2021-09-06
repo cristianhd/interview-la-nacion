@@ -9,21 +9,22 @@ import LinksGDAFiscal from "./LinksGDAFiscal";
 function Footer(props) {
   return (
     <div className="footer">
-    <div className='lay'>
+      <div className="lay">
+        <section className="links">
+          <a className="logo" href="/">
+            <img src={logo} alt="logo.svg"></img>
+          </a>
 
-      <section className="links">
-        <a className="logo" href="/">
-          <img src={logo} alt="logo.svg"></img>
-        </a>
-
-        <LinksSocial />
-      </section>
-      <section className="bottom">
-        <LinksDownload />
-        <LinksGDAFiscal />
-        <span className='copyright'>Copyright 2021 SA LA NACION | Todos los derechos reservados</span>
-      </section>
-    </div>
+          <LinksSocial />
+        </section>
+        <section className="bottom">
+          <LinksDownload />
+          <LinksGDAFiscal />
+          <span className="copyright">
+            Copyright 2021 SA LA NACION | Todos los derechos reservados
+          </span>
+        </section>
+      </div>
     </div>
   );
 }
