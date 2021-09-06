@@ -1,6 +1,6 @@
 import React from 'react';
-import weatherIcon from '../assets/weth-icon.svg'
-import '../Style/WeatherLabel.scss'
+import weatherIcon from '../../assets/weth-icon.svg'
+import '../../Style/WeatherLabel.scss'
 
 function WeatherLabel({gradius,city}) {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../assets/logo-la-nacion.svg";
-import search from "../assets/search-icon.svg";
-import hamburguer from "../assets/ham-icon.svg";
-import "../Style/NavBar.scss";
+import logo from "../../assets/logo-la-nacion.svg";
+import search from "../../assets/search-icon.svg";
+import hamburguer from "../../assets/ham-icon.svg";
+import "../../Style/NavBar.scss";
 
 function NavBar(props) {
   return (

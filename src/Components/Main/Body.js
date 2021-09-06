@@ -1,7 +1,7 @@
 import React from "react";
 import CardArticle from "./CardArticle";
-import "../Style/Body.scss";
 import FocalRight from "./FocalRight";
+import "../../Style/Body.scss";
 
 function Body({ article }) {
   return (

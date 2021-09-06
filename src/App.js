@@ -1,11 +1,11 @@
-import Body from "./Components/Body";
-import CardFullScreen from "./Components/CardFullScreen";
-import Footer from "./Components/Footer";
-import NavBar from "./Components/NavBar";
-import SubNavBar from "./Components/SubNavBar";
+import Body from "./Components/Main/Body";
+import CardFullScreen from "./Components/Header/CardFullScreen";
+import Footer from "./Components/Footer/Footer";
+import NavBar from "./Components/NavBar/NavBar";
+import SubNavBar from "./Components/NavBar/SubNavBar.js";
+import Cabezal from "./Components/Main/Cabezal";
+import MegaLateral from "./Components/Main/MegaLateral";
 import { articles } from "./articles.js";
-import Cabezal from "./Components/Cabezal";
-import MegaLateral from "./Components/MegaLateral";
 import "./Style/App.scss";
 
 function App() {

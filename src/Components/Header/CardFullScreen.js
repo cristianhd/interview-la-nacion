@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/CardFullScreen.scss";
+import "../../Style/CardFullScreen.scss";
 
 import Card from "./Card";
 

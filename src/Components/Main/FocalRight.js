@@ -1,5 +1,5 @@
 import React from "react";
-import CardArticle from "./CardArticle";
+import CardArticle from "../Main/CardArticle.js";
 
 function FocalRight({ article }) {
   return (

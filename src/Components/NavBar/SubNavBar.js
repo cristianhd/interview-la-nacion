@@ -1,8 +1,8 @@
 import React from "react";
-import logoClub from "../assets/logo-club.svg";
+import logoClub from "../../assets/logo-club.svg";
 import DolarLabel from "./DolarLabel";
 import WeatherLabel from "./WeatherLabel";
-import "../Style/SubNavBar.scss";
+import "../../Style/SubNavBar.scss";
 
 function SubNavBar(props) {
   //Simulate Data API Dolar and Weather

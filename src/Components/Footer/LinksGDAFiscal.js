@@ -1,7 +1,7 @@
 import React from "react";
 import LinkImg from "./LinkImg";
-import gda from "../assets/gda.svg";
-import fiscal from "../assets/fiscal.svg";
+import gda from "../../assets/gda.svg";
+import fiscal from "../../assets/fiscal.svg";
 
 function LinksGDAFiscal(props) {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Chapita from "./Chapita";
-import "../Style/Card.scss";
+import "../../Style/Card.scss";
 
 function Card({ type, article }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import LinkImg from "./LinkImg";
-import iOS from "../assets/iOS.svg";
-import Android from "../assets/Android.svg";
+import iOS from "../../assets/iOS.svg";
+import Android from "../../assets/Android.svg";
 
 function LinksDownload(props) {
   return (

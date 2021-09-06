@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Cabezal.scss";
+import "../../Style/Cabezal.scss";
 
 function Cabezal(props) {
   return (

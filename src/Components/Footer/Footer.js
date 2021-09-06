@@ -1,10 +1,9 @@
 import React from "react";
-import logo from "../assets/logo-la-nacion.svg";
-
-import "../Style/Footer.scss";
+import logo from "../../assets/logo-la-nacion.svg";
 import LinksSocial from "./LinksSocial";
 import LinksDownload from "./LinksDownload";
 import LinksGDAFiscal from "./LinksGDAFiscal";
+import "../../Style/Footer.scss";
 
 function Footer(props) {
   return (
