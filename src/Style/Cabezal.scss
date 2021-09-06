@@ -1,0 +1,16 @@
+.container {
+    width: 920px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    padding: 65px 0px;
+
+}
+
+.cabezal {
+    @media (max-width: 1023px) {
+        .container {
+          display: none;
+        
+      }
+      }
+}
