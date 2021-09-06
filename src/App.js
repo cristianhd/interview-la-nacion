@@ -24,7 +24,7 @@ function App() {
       <div className="main">
         <div className="wrap-body">
           <Cabezal />
-          <Body article={article} />
+          <Body articles={articles} />
         </div>
         <div className="sidebar">
           <MegaLateral />

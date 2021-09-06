@@ -2,6 +2,7 @@ import React from "react";
 import Article from "./Article";
 
 function CardArticle({ article, render }) {
+ console.log(render);
   const { lead, title, subheader, img, marquee, autor, imgautor, url } =
     article;
 
