@@ -3,13 +3,22 @@ $SuecaSlab-font-path: "../fonts/SuecaSlab";
   src: url("#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf")
     format("woff2");
 
-  font-family: "SuecaSlab";
+  font-family: "SuecaSlab-Bold";
+  font-weight: 700px;
+  font-style: normal;
 }
+@font-face {
+  src: url("#{$SuecaSlab-font-path}/sueca-slab-regular-web.woff.ttf")
+    format("woff2");
 
+  font-family: "SuecaSlab-Regular";
+  font-weight: 400px;
+  font-style: normal;
+}
 .App {
   position: absolute;
   width: 100%;
-  font-family: Arial, SuecaSlab sans-serif;
+  font-family: Arial, SuecaSlab-Bold sans-serif;
   min-width: 320px;
 }
 

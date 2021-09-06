@@ -11,27 +11,29 @@ export const articles = [
     img: defaultImg,
     marquee: "Marquee",
     autor: "Nicolas Hernandez",
-    imgautor:autorImg,
+    imgautor: autorImg,
     url: "#",
   },
   {
     lead: "Lead",
     title: "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
-    subheader: "",
+    subheader:
+      "Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba comó sería su viaje a bordo de su propia nave espacial",
     img: defaultImg,
     marquee: "Marquee",
     autor: "Aydee Duarte",
-    imgautor:autorImg,
+    imgautor: autorImg,
     url: "#",
   },
   {
     lead: "Lead",
     title: "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
-    subheader: "",
+    subheader:
+      "Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba comó sería su viaje a bordo de su propia nave espacial",
     img: defaultImg,
     marquee: "Marquee",
     autor: "Robinsson Hernandez",
-    imgautor:autorImg,
+    imgautor: autorImg,
     url: "#",
   },
   {
@@ -42,18 +44,19 @@ export const articles = [
     img: defaultImg,
     marquee: "Marquee",
     autor: "Americo Carrasquero",
-    imgautor:autorImg,
+    imgautor: autorImg,
     url: "#",
   },
   {
     lead: "Lead",
     title:
       "Title Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
-    subheader: "",
+    subheader:
+      "Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba comó sería su viaje a bordo de su propia nave espacial",
     img: defaultImg,
     marquee: "Marquee",
     autor: "Laura Ramirez",
-    imgautor:autorImg,
+    imgautor: autorImg,
     url: "#",
   },
   {
