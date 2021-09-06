@@ -22,4 +22,17 @@
 }
 .block-art {
   width: 100%;
-}
+  padding-top:16px;
+  @media (min-width:768px) {
+      
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      .art-left {
+border-right: 1px solid #cccccc;;
+      }
+    }
+  }
+  
+  .art-right {
+    padding-left: 10px;
+  }
