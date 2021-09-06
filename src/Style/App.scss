@@ -7,8 +7,14 @@
   position: relative;
   border-bottom: 1px solid #cccccc;
   padding: 12px 0px;
-  
-  
+  @media (min-width: 1259px){
+    .lay{
+      display: flex;
+      justify-content: center;
+    }
+    
+
+  }
 }
 .lay {
  
@@ -19,7 +25,9 @@
 }
 
 .row {
-  width: auto;
+ @media (min-width:1259px) {
+   width: 1260px;
+ }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -27,8 +35,19 @@
 }
 
 .wrap-body {
-  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.sidebar{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

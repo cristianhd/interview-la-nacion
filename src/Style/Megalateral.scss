@@ -1,0 +1,18 @@
+.cont-aside{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #cccccc;
+    margin: 65px 0px 64px;
+}
+.m-lateral {
+    width: 300px;
+    height: 4000px;
+    padding-left: 40px;
+    @media (max-width: 1259px) {
+        display: none;
+        .cont-aside {
+          display: none;
+        
+      }
+      }
+}
