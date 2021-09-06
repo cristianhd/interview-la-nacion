@@ -1,0 +1,43 @@
+.row-links {
+  margin: 0px;
+  padding: 12px 0px;
+}
+.link-rev,
+.link-club,
+.link-envios, .link-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+}
+
+.link-rev {
+  &::before {
+    padding-right: 16px;
+    content: "Revistas:";
+  }
+}
+.link-club {
+  &::before {
+    padding-right: 16px;
+    content: "Club de vino:";
+  }
+}
+.link-envios {
+  &::before {
+    padding-right: 16px;
+    content: "Envíos:";
+  }
+}
+ul {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+  a {
+    padding-right: 16px;
+    text-decoration: none;
+  }
+}

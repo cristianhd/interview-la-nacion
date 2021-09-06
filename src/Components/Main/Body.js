@@ -15,7 +15,7 @@ function Body({ articles }) {
         />
       </section>
       <section>
-        <Notax3 articles={articles} title='Notasx3' link={true} url='#' />
+        <Notax3 articles={articles} title='Notas x 3' link={true} url='#' />
       </section>
     </div>
   );

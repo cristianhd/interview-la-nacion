@@ -1,16 +1,22 @@
-import React from 'react';
+import React from "react";
+import '../../Style/LinksLine.scss'
 
-function LinksLine({links}) {
-    const rowLinks = links.map((item,index)=>{
-        return <ul>
-            {item}
-        </ul>
-    })
+function LinksLine({ links , name }) {
+  const rowLinks = links.map((item, index) => {
+    const { url, link } = item;
     return (
-        <div>
-            {rowLinks}
-        </div>
+     
+        <a key={index} href={url}>{link}</a>
+    
     );
+  });
+  return <div className={name}>
+  <ul className='row-links'>
+
+  {rowLinks}
+  
+  </ul>
+  </div>;
 }
 
 export default LinksLine;

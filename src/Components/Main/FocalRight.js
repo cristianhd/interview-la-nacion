@@ -8,7 +8,7 @@ function FocalRight({ articles, title, link, url }) {
     return index ? (
       <CardArticle key={index} article={item} render={index + 1} />
     ) : (
-      <></>
+      <div key={index}></div>
     );
   });
 
