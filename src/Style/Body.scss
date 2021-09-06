@@ -9,8 +9,8 @@ max-width: 920px;
    
 
     @media (min-width: 768px){
-        display: flex;
-        flex-direction: row;
-        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
     }
 }

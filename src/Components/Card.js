@@ -1,7 +1,7 @@
 import React from 'react';
 import Chapita from './Chapita';
 import '../Style/Card.scss'
-import cardfs from '../assets/cardfs.svg'
+
 
 function Card({type,article}) {
     return (

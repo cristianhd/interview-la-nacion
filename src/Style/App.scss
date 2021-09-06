@@ -2,6 +2,7 @@
   position: absolute;
   width: 100%;
   font-family: Arial, sans-serif;
+  min-width: 320px;
 }
 .navbar {
   position: relative;
@@ -19,7 +20,7 @@
 .lay {
  
   font: inherit;
-  min-width: 288px;
+ 
   padding: 0px 16px;
  
 }
