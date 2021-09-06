@@ -1,6 +1,6 @@
-import React from "react";
-import CardArticle from "../Main/CardArticle.js";
-import "../../Style/FocalRight.scss";
+import React from 'react';
+import CardArticle from '../Main/CardArticle.js';
+import '../../Style/FocalRight.scss';
 
 function FocalRight({ articles, title, link, url }) {
   const BlockArticles = articles.slice(1, 4);
@@ -13,8 +13,8 @@ function FocalRight({ articles, title, link, url }) {
   });
 
   return (
-    <div className="focal">
-      <div className="modul-title">
+    <div className='focal'>
+      <div className='modul-title'>
         {title && link ? (
           <a href={url}>
             <h1>{title}</h1>
@@ -25,9 +25,9 @@ function FocalRight({ articles, title, link, url }) {
       </div>
 
       {BlockArticles && (
-        <div className="block-art">
-          <div className="art-left">{articlesLeft}</div>
-          <div className="art-right">
+        <div className='block-art'>
+          <div className='art-left'>{articlesLeft}</div>
+          <div className='art-right'>
             <CardArticle article={BlockArticles[0]} render={1} />
           </div>
         </div>

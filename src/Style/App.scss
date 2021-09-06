@@ -1,17 +1,17 @@
-$SuecaSlab-font-path: "../fonts/SuecaSlab";
+$SuecaSlab-font-path: '../fonts/SuecaSlab';
 @font-face {
-  src: url("#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf")
-    format("woff2");
+  src: url('#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf')
+    format('woff2');
 
-  font-family: "SuecaSlab-Bold";
+  font-family: 'SuecaSlab-Bold';
   font-weight: 700px;
   font-style: normal;
 }
 @font-face {
-  src: url("#{$SuecaSlab-font-path}/sueca-slab-regular-web.woff.ttf")
-    format("woff2");
+  src: url('#{$SuecaSlab-font-path}/sueca-slab-regular-web.woff.ttf')
+    format('woff2');
 
-  font-family: "SuecaSlab-Regular";
+  font-family: 'SuecaSlab-Regular';
   font-weight: 400px;
   font-style: normal;
 }

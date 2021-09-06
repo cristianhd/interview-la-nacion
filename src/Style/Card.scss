@@ -5,12 +5,11 @@
   height: 457px;
   width: 100%;
   color: white;
-  background-image: url("../assets/defaultImg.svg");
+  background-image: url('../assets/defaultImg.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  
-  @media (max-width:767px) {
-    
+
+  @media (max-width: 767px) {
     margin-bottom: 64px;
   }
 
@@ -23,7 +22,7 @@
       }
     }
   }
-  
+
   @media (min-width: 1259px) {
     .card-bottom {
       height: 200px;
@@ -62,10 +61,10 @@
 
   span {
     font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-color: #F2F2F2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #f2f2f2;
   }
 }
