@@ -6,6 +6,7 @@ import LinksGDAFiscal from "./LinksGDAFiscal";
 import LinksLine from "./LinksLine";
 import { links } from "../../linksLineFooter.js";
 import "../../Style/Footer.scss";
+import LinkImg from "./LinkImg";
 
 function Footer(props) {
   const { secciones, revistas, clubvino, envios } = links;
@@ -14,11 +15,13 @@ function Footer(props) {
       <div className="lay">
         <section className="top">
           <div className="links">
-            <a className="logo" href="/">
-              <img src={logo} alt="logo.svg"></img>
-            </a>
+          <div className='logo'>
+
+          <LinkImg img={logo} name='logo.svg' link='/'/>
           </div>
+            
           <LinksSocial />
+          </div>
           <LinksDownload />
         </section>
         <section className="medium">

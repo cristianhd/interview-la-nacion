@@ -6,7 +6,7 @@ function Card({ type, article }) {
   return (
     <section className='card'>
       <div className='card-bottom'>
-        <div className='wrap'>
+        <div className='wrap-card'>
           <Chapita type={type} />
           <h1>
             {article.lead}. {article.title}
