@@ -1,9 +1,7 @@
 import React from "react";
 import LinksLine from "./LinksLine";
-import { links } from "../../DataDummy/linksLineFooter.js";
 
-function Medium(props) {
-  const { secciones, revistas, clubvino, envios } = links;
+function Medium({ secciones, revistas, clubvino, envios }) {
   return (
     <section className="medium">
       <div className="block-links">

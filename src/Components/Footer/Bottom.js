@@ -1,10 +1,8 @@
 import React from "react";
-import { links } from "../../DataDummy/linksLineFooter.js";
 import LinksGDAFiscal from "./LinksGDAFiscal.js";
 import LinksLine from "./LinksLine.js";
 
-function Bottom(props) {
-  const { bottomR, bottomL } = links;
+function Bottom({ bottomR, bottomL }) {
   return (
     <section className="bottom">
       <div className="column">

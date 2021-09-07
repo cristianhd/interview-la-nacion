@@ -1,4 +1,4 @@
-export const links = {
+export const LINKS = {
   secciones: [
     { link: "Últimas noticias", url: "#" },
     { link: "Política", url: "#" },
@@ -31,14 +31,14 @@ export const links = {
     { link: "Fundación LA NACION", url: "#" },
     { link: "Avisos solidarios", url: "#" },
   ],
-  bottomL:[
+  bottomL: [
     { link: "Mapa del sitio", url: "#" },
     { link: "Ayuda", url: "#" },
     { link: "¿Cómo anunciar?", url: "#" },
-    { link: "Suscribirse al diario impreso", url: "#" }
+    { link: "Suscribirse al diario impreso", url: "#" },
   ],
-  bottomR:[
+  bottomR: [
     { link: "Condiciones", url: "#" },
-    { link: "Privacidad", url: "#" }
-  ]
+    { link: "Privacidad", url: "#" },
+  ],
 };

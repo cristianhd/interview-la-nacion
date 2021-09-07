@@ -1,7 +1,6 @@
 import React from "react";
 import search from "../../assets/search-icon.svg";
 
-
 function GroupBtnRigth(props) {
   return (
     <div className="btns-right">

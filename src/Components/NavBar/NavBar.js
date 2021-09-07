@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/logo-la-nacion.svg";
-
 import "../../Style/NavBar.scss";
 import LinkImg from "../Footer/LinkImg";
 import GroupBtnLeft from "./GroupBtnLeft";

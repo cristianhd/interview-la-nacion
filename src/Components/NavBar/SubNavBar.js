@@ -16,7 +16,7 @@ function SubNavBar(props) {
     setDolarBna(DOLARBNA);
     setGeoWeather(GEOWEATHER);
   }, [dolarBlue, dolarBna, geoWeather]);
-  
+
   return (
     <section className="sub-navbar">
       <div className="lay">
