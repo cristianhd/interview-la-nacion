@@ -1,16 +1,17 @@
+@import "../Variables/Variables.scss";
 .footer {
   width: 100%;
   padding: 32px 0px 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;
- 
- .wrap-footer {
-   width: inherit;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
+
+  .wrap-footer {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .top {
   width: 100%;
@@ -19,7 +20,7 @@
   justify-content: center;
   align-items: center;
   @media (min-width: 1024px) {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: $StyleSeparator;
     width: 100%;
     max-width: 1260px;
     display: flex;
@@ -30,7 +31,7 @@
 }
 .medium {
   display: none;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: $StyleSeparator;
 
   .wrap {
     display: flex;
@@ -83,11 +84,10 @@
   justify-content: space-between;
   align-items: center;
   font-family: Arial;
-
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
-  color: #272727;
+  color: $MarqueeColor;
 
   @media (max-width: 768px) {
     display: flex;
@@ -98,7 +98,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #272727;
+    color: $MarqueeColor;
   }
 }
 .links {
@@ -120,8 +120,7 @@
     padding: 30px 0px;
     @media (max-width: 1023px) {
       width: inherit;
-      border-bottom: 1px solid #cccccc;
-     
+      border-bottom: $StyleSeparator;
     }
   }
 }

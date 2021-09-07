@@ -1,3 +1,4 @@
+@import "../Variables/Variables.scss";
 .btns-left {
   width: 259px;
   display: flex;
@@ -9,7 +10,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .img-logo {
@@ -35,10 +35,10 @@
   align-items: center;
   font-size: 0.75rem;
   font-weight: 700;
-  background: #f2f2f2;
+  background: $SecondaryColor;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  border-color: #f2f2f2;
+  border-color: $SecondaryColor;
   img {
     padding-left: 9px;
     width: 15px;
@@ -56,11 +56,11 @@
   font-weight: 700;
   padding: 3px 16px;
   text-decoration: none;
-  color: #0074c4;
+  color: $PrimaryColorBlue;
   &:hover {
-    background: #000;
-    border-color: #000;
-    color: #fefefe;
+    background: $NeutralColorBlack;
+    border-color: $NeutralColorBlack;
+    color: $SecondaryColor;
   }
 }
 
@@ -68,19 +68,18 @@
   height: 40px;
   width: 96px;
   padding: 3px 16px;
-  background: #f2f2f2;
-  background: #fff;
-  border-color: #0074c4;
-  color: #0074c4;
+  background: $SecondaryColor;
+  border-color: $PrimaryColorBlue;
+  color: $PrimaryColorBlue;
   font-size: 0.75rem;
   font-weight: 700;
-  border: 1px solid #0074c4;
+  border: 1px solid $PrimaryColorBlue;
   border-radius: 0.25rem;
   &:hover {
     cursor: pointer;
-    background: #008dff;
-    border-color: #008dff;
-    color: #fefefe;
+    background: $PrimaryColorBlue;
+    border-color: $PrimaryColorBlue;
+    color: $SecondaryColor;
   }
 }
 
@@ -95,14 +94,14 @@
     margin-right: 25px;
     width: 105px;
     height: 40px;
-    border: 1px solid #cccccc;
+    border: $StyleSeparator;
     box-sizing: border-box;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #ffff24;
-    color: #000000;
+    color: $NeutralColorBlack;
   }
   .navbar .btns-left {
     display: flex;

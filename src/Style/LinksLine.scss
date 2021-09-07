@@ -19,7 +19,6 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 22px;
-  
 }
 
 .link-rev {
@@ -40,8 +39,8 @@
     content: "Envíos:";
   }
 }
-.link-bottomR  > ul{
-  @media (max-width:1023px) {
+.link-bottomR > ul {
+  @media (max-width: 1023px) {
     display: none;
   }
   &::before {

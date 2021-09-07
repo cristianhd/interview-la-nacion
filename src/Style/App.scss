@@ -1,20 +1,20 @@
-$SuecaSlab-font-path: '../fonts/SuecaSlab';
+@import "../Variables/Variables.scss";
 @font-face {
-  src: url('#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf')
-    format('woff2');
-
-  font-family: 'SuecaSlab-Bold';
+  src: url("#{$SuecaSlab-font-path}/sueca-slab-bold-web.woff.ttf")
+    format("woff2");
+  font-family: "SuecaSlab-Bold";
   font-weight: 700px;
   font-style: normal;
 }
-@font-face {
-  src: url('#{$SuecaSlab-font-path}/sueca-slab-regular-web.woff.ttf')
-    format('woff2');
 
-  font-family: 'SuecaSlab-Regular';
+@font-face {
+  src: url("#{$SuecaSlab-font-path}/sueca-slab-regular-web.woff.ttf")
+    format("woff2");
+  font-family: "SuecaSlab-Regular";
   font-weight: 400px;
   font-style: normal;
 }
+
 .App {
   position: absolute;
   width: 100%;
@@ -24,7 +24,7 @@ $SuecaSlab-font-path: '../fonts/SuecaSlab';
 
 .navbar {
   position: relative;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: $StyleSeparator;
   padding: 12px 0px;
   @media (min-width: 1259px) {
     .lay {
@@ -42,7 +42,7 @@ $SuecaSlab-font-path: '../fonts/SuecaSlab';
 
 .row {
   @media (min-width: 1259px) {
-    width: 1260px;
+    width: $MaxWidth;
   }
   display: flex;
   flex-wrap: wrap;

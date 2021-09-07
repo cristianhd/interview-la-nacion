@@ -1,3 +1,4 @@
+@import "../Variables/Variables.scss";
 .chapita {
   padding: 4px 8px;
   display: flex;
@@ -8,6 +9,6 @@
   font-size: 11px;
   width: 84px;
   height: 24px;
-  background-color: black;
-  color: white;
+  background-color: $NeutralColorBlack;
+  color: $NeutralColorWhite;
 }
