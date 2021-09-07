@@ -1,7 +1,7 @@
 # LA NACION
 En esta aplicación creada con React y Sass principalemente se replico la pagina Web de la NACION, uno de los 10 grupos de prensa mas importantes de  la Argentina. La SPA consume dataDummy con la cual crea articulos que luego son incorporados en modulos contenedores tales como Focales , Notas , entre otras.
 
-Se utilizo Sass como presocesador de hoja de calculo (CSS) con el cual se dio estilos y adapto a un modelo responsive a cualquier ancho de pantalla como lo puedes apreciar en los siguientes videos:
+Se utilizo Sass como preprocesador de CSS con el cual se dio estilos y adapto a un modelo responsive a cualquier ancho de pantalla como lo puedes apreciar en los siguientes videos:
 
 ---
 
