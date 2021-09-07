@@ -31,4 +31,14 @@ export const links = {
     { link: "Fundación LA NACION", url: "#" },
     { link: "Avisos solidarios", url: "#" },
   ],
+  bottomL:[
+    { link: "Mapa del sitio", url: "#" },
+    { link: "Ayuda", url: "#" },
+    { link: "¿Cómo anunciar?", url: "#" },
+    { link: "Suscribirse al diario impreso", url: "#" }
+  ],
+  bottomR:[
+    { link: "Condiciones", url: "#" },
+    { link: "Privacidad", url: "#" }
+  ]
 };

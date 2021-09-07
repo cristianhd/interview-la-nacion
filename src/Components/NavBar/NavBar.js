@@ -3,6 +3,7 @@ import logo from '../../assets/logo-la-nacion.svg';
 import search from '../../assets/search-icon.svg';
 import hamburguer from '../../assets/ham-icon.svg';
 import '../../Style/NavBar.scss';
+import LinkImg from '../Footer/LinkImg';
 
 function NavBar(props) {
   return (
@@ -20,7 +21,7 @@ function NavBar(props) {
         </div>
 
         <div className='logo'>
-          <img className='img-logo' src={logo} alt='logo.svg'></img>
+        <LinkImg img={logo} name='logo.svg' link='/'/>
         </div>
 
         <div className='btns-right'>

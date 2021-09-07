@@ -5,14 +5,14 @@ import LinksDownload from "./LinksDownload";
 import LinksGDAFiscal from "./LinksGDAFiscal";
 import LinksLine from "./LinksLine";
 import { links } from "../../linksLineFooter.js";
-import "../../Style/Footer.scss";
 import LinkImg from "./LinkImg";
+import "../../Style/Footer.scss";
 
 function Footer(props) {
-  const { secciones, revistas, clubvino, envios } = links;
+  const { secciones, revistas, clubvino, envios, bottomR, bottomL  } = links;
   return (
     <div className="footer">
-      <div className="lay">
+      <div className='wrap-footer'>
         <section className="top">
           <div className="links">
           <div className='logo'>
@@ -33,18 +33,26 @@ function Footer(props) {
             <div className='wrap'>
 
             <LinksLine links={clubvino} name='link-club'/>
+            
             <LinksLine links={envios} name='link-envios'/>
             </div>
           </div>
           
         </section>
         <section className="bottom">
-        <div className='wrap'>
+        <div className='column'>
+        <div className='bottom'>
+
+            <LinksLine links={bottomL} name='link-bottomL'/>
+            <LinksLine links={bottomR} name='link-bottomR'/>
+        </div>
+<div className='bottom-rev'>
 
           <LinksGDAFiscal />
           <span className="copyright">
             Copyright 2021 SA LA NACION | Todos los derechos reservados
           </span>
+</div>
         </div>
         </section>
       </div>
