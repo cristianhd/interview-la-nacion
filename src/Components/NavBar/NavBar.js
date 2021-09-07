@@ -1,42 +1,22 @@
-import React from 'react';
-import logo from '../../assets/logo-la-nacion.svg';
-import search from '../../assets/search-icon.svg';
-import hamburguer from '../../assets/ham-icon.svg';
-import '../../Style/NavBar.scss';
-import LinkImg from '../Footer/LinkImg';
+import React from "react";
+import logo from "../../assets/logo-la-nacion.svg";
+
+import "../../Style/NavBar.scss";
+import LinkImg from "../Footer/LinkImg";
+import GroupBtnLeft from "./GroupBtnLeft";
+import GroupBtnRigth from "./GroupBtnRigth";
 
 function NavBar(props) {
   return (
-    <div className='lay'>
-      <div className='row'>
-        <div className='btns-left'>
-          <button className='btn-section'>
-            SECCIONES
-            <img src={hamburguer} alt='ham-icon.svg'></img>
-          </button>
-          <button className='btn-search'>
-            BUSCAR
-            <img src={search} alt='search-icon'></img>
-          </button>
+    <div className="lay">
+      <div className="row">
+        <GroupBtnLeft />
+
+        <div className="logo">
+          <LinkImg img={logo} name="logo.svg" link="/" />
         </div>
 
-        <div className='logo'>
-        <LinkImg img={logo} name='logo.svg' link='/'/>
-        </div>
-
-        <div className='btns-right'>
-          <div className='wrap'>
-            <a className='btn-suscribe' href='/suscribe'>
-              SUSCRIBITE
-            </a>
-          </div>
-
-          <a className='btn-icon' href='/search'>
-            <img className='icon' src={search} alt='search-icon'></img>
-          </a>
-
-          <button className='btn-signin'>INGRESAR</button>
-        </div>
+        <GroupBtnRigth />
       </div>
     </div>
   );

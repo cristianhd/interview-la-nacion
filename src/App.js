@@ -1,35 +1,30 @@
-import Body from './Components/Main/Body';
-import CardFullScreen from './Components/Header/CardFullScreen';
-import Footer from './Components/Footer/Footer';
-import NavBar from './Components/NavBar/NavBar';
-import SubNavBar from './Components/NavBar/SubNavBar.js';
-import Cabezal from './Components/Main/Cabezal';
-import MegaLateral from './Components/Main/MegaLateral';
-import { articles } from './articles.js';
-import './Style/App.scss';
+import CardFullScreen from "./Components/Header/CardFullScreen";
+import Footer from "./Components/Footer/Footer";
+import NavBar from "./Components/NavBar/NavBar";
+import SubNavBar from "./Components/NavBar/SubNavBar.js";
+import { ARTICLES } from "./DataDummy/articles.js";
+import "./Style/App.scss";
+import Main from "./Components/Main/Main";
+import { useEffect, useState } from "react";
 
 function App() {
-  const article = articles[0];
+  const [articles, setArticles] = useState();
+
+  useEffect(() => {
+    setArticles(ARTICLES);
+  }, [articles]);
 
   return (
-    <div className='App'>
-      <nav className='navbar'>
+    <div className="App">
+      <nav className="navbar">
         <NavBar />
       </nav>
-      <SubNavBar />
-      <header>
-        <CardFullScreen article={article} />
-      </header>
+      <nav>
+        <SubNavBar />
+      </nav>
+      <header>{articles && <CardFullScreen article={articles[0]} />}</header>
 
-      <div className='main'>
-        <div className='wrap-body'>
-          <Cabezal />
-          <Body articles={articles} />
-        </div>
-        <div className='sidebar'>
-          <MegaLateral />
-        </div>
-      </div>
+      {articles && <Main articles={articles} />}
 
       <footer>
         <Footer />

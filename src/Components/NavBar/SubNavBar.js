@@ -1,27 +1,39 @@
-import React from 'react';
-import logoClub from '../../assets/logo-club.svg';
-import DolarLabel from './DolarLabel';
-import WeatherLabel from './WeatherLabel';
-import '../../Style/SubNavBar.scss';
+import React, { useEffect, useState } from "react";
+import logoClub from "../../assets/logo-club.svg";
+import DolarLabel from "./DolarLabel";
+import WeatherLabel from "./WeatherLabel";
+import "../../Style/SubNavBar.scss";
+import { DOLARBLUE, DOLARBNA } from "../../DataDummy/dolar.js";
+import { GEOWEATHER } from "../../DataDummy/weather.js";
 
 function SubNavBar(props) {
-  //Simulate Data API Dolar and Weather
-  const dolarBna = { buy: '00,00', sell: '00,00' };
-  const dolarBlue = { buy: '00,00', sell: '00,00' };
-  const geoWeather = { gradius: '00.0°', city: 'Capital Federal' };
-  return (
-    <section className='sub-navbar'>
-      <div className='lay'>
-        <div className='row'>
-          <DolarLabel bna={dolarBna} blue={dolarBlue} />
-          <WeatherLabel gradius={geoWeather.gradius} city={geoWeather.city} />
+  const [dolarBlue, setDolarBlue] = useState();
+  const [dolarBna, setDolarBna] = useState();
+  const [geoWeather, setGeoWeather] = useState();
 
-          <a className='newsl' href='/newsletters'>
+  useEffect(() => {
+    setDolarBlue(DOLARBLUE);
+    setDolarBna(DOLARBNA);
+    setGeoWeather(GEOWEATHER);
+  }, [dolarBlue, dolarBna, geoWeather]);
+  
+  return (
+    <section className="sub-navbar">
+      <div className="lay">
+        <div className="row">
+          {dolarBlue && dolarBna && (
+            <DolarLabel bna={dolarBna} blue={dolarBlue} />
+          )}
+          {geoWeather && (
+            <WeatherLabel gradius={geoWeather.gradius} city={geoWeather.city} />
+          )}
+
+          <a className="newsl" href="/newsletters">
             Recibí Newsletters
           </a>
 
-          <a className='clubn' href='/clubnacion'>
-            <img src={logoClub} alt='logo-club.svg'></img>
+          <a className="clubn" href="/clubnacion">
+            <img src={logoClub} alt="logo-club.svg"></img>
             Descubrí tus beneficios
           </a>
         </div>
